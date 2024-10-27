@@ -36,6 +36,7 @@ public static  Logger logger;//logger is variable and Capital Logger is interfac
 		logger=	Logger.getLogger("Loggerinformation");
 	  PropertyConfigurator.configure("log4j.properties");
 	  logger.info("Collection log information");
+	  logger.info("Collection launchbrowser information");
 	}
 	
 	@BeforeMethod
